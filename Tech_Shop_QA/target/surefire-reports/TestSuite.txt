@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.949 s <<< FAILURE! - in TestSuite
+com.techshop.runner.Runner.runScenario["User clicks on an item from the homepage and adds the item to the cart", "User is able to add items to cart"](1)  Time elapsed: 0.11 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.techshop.base.Base.setUp(Base.java:35)
+	at com.techshop.hooks.Hooks.initialize(Hooks.java:11)
+
+com.techshop.runner.Runner.runScenario["User can hover over their username", "User is able to add items to cart"](2)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.techshop.base.Base.setUp(Base.java:35)
+	at com.techshop.hooks.Hooks.initialize(Hooks.java:11)
+

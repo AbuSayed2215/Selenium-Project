@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test" duration-ms="778" started-at="2022-11-20T15:57:03Z" finished-at="2022-11-20T15:57:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.techshop.runner.Runner@71e9ddb4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default Testing" duration-ms="778" started-at="2022-11-20T15:57:03Z" finished-at="2022-11-20T15:57:04Z">
+      <class name="com.techshop.runner.Runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.techshop.runner.Runner@71e9ddb4]" name="setUpClass" is-config="true" duration-ms="345" started-at="2022-11-20T15:57:03Z" finished-at="2022-11-20T15:57:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@338494fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.techshop.runner.Runner@71e9ddb4]" name="runScenario" duration-ms="104" started-at="2022-11-20T15:57:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-20T15:57:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User clicks on an item from the homepage and adds the item to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User is able to add items to cart"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.techshop.base.Base.setUp(Base.java:35)
+at com.techshop.hooks.Hooks.initialize(Hooks.java:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.techshop.runner.Runner@71e9ddb4]" name="runScenario" duration-ms="21" started-at="2022-11-20T15:57:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-20T15:57:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can hover over their username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User is able to add items to cart"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.techshop.base.Base.setUp(Base.java:35)
+at com.techshop.hooks.Hooks.initialize(Hooks.java:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.techshop.runner.Runner@71e9ddb4]" name="tearDownClass" is-config="true" duration-ms="288" started-at="2022-11-20T15:57:03Z" finished-at="2022-11-20T15:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.techshop.runner.Runner -->
+    </test> <!-- Default Testing -->
+  </suite> <!-- Automation Test -->
+</testng-results>

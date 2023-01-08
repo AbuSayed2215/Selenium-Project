@@ -1,0 +1,4 @@
+com\techshop\base\Base.class
+com\techshop\utilities\Utilities.class
+com\techshop\hooks\Hooks.class
+com\techshop\element\Elements.class
